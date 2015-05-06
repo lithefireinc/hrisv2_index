@@ -1,0 +1,11 @@
+{
+    "name": "lithefireinc/hris",
+    "description": "Human Resource Information System v2",
+    "authors": [
+        {
+            "name": "Darryl Anaud",
+            "email": "darrylanaud@gmail.com"
+        }
+    ],
+    "require": {}
+}
