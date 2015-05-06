@@ -1,0 +1,82 @@
+	/* CSS Document */
+* {margin:0;padding:0}
+html,body{height:100%; width:100%;}
+#wrapper{
+	height:100%;
+	width:95%;
+	display:table;
+	vertical-align:middle;
+	background:url('../images/login.png') no-repeat center fixed ;
+}
+#outer{
+	display:table-cell;
+	vertical-align:middle;
+	float:right;
+}
+#loginwrap{
+	position:relative;
+
+/*	left:50%;*/
+	/*float:left;*/
+	/*width:auto;*/
+	height:211px;
+/*	background:url('../images/login.png') no-repeat center fixed ;*/
+
+}
+#loginform{
+	/*border:1px solid #000;*/
+	/*padding-left:50px;*/
+	/*position:absolute;*/
+	/*right: 50%;*/
+	position:relative;
+	height:211px;
+	display:
+	/*text-align:right;*/
+/*	padding-left:64%;*/
+	/*padding-top:50px;
+	padding-right:5%;*/
+}
+#loginformin{
+	/*border:1px solid #000;*/
+/*	padding-top:0px;*/
+	/*position:relative;*/
+	/*text-align:right;*/
+/*	left:-80%;*/
+float:right;
+}
+
+
+
+
+	
+p{margin:1em 0}
+
+#loading-mask {
+  position: absolute;
+  left:     0;
+  top:      0;
+  width:    100%;
+  height:   100%;
+  z-index:  20000;
+  background-color: white;
+}
+
+#loading {
+  position: absolute;
+  left:     50%;
+  top:      50%;
+  padding:  2px;
+  z-index:  20001;
+  height:   auto;
+  margin:   -35px 0 0 -30px;
+}
+
+#loading .loading-indicator {
+  background: url(../images/extanim32.gif) no-repeat;
+  color:      #555;
+  font:       bold 13px tahoma,arial,helvetica;
+  padding:    8px 42px;
+  margin:     0;
+  text-align: center;
+  height:     auto;
+}

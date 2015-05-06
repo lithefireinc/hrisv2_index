@@ -1,0 +1,236 @@
+/* CSS Document */
+
+
+
+*{margin:0px;}
+
+/** {margin:0px;padding:0px}*/
+
+/* mac hide \*/
+
+
+
+
+
+
+
+html,body{height:100%;width:100%;overflow:visible;}
+
+/* end hide */
+
+body 
+
+{
+
+	height:100%;width:100%;
+
+	background-position:0px 0px;
+
+	background-color:#048bbc;
+
+	font-size: 12px;
+
+	font-family: tahoma;
+
+	margin:0;
+
+	padding:0;
+
+
+
+	/*background: #0487af; /* for non-css3 browsers */
+
+}
+
+
+
+#maincontent {   
+
+
+
+  overflow:auto;
+
+  width: 100%;
+
+ /* border: 1px solid black; */
+
+  background: white;
+
+ /* margin: 2em auto;*/
+
+}
+
+
+
+#left {
+
+  width: 70%; 
+
+ /* margin:5px; */
+
+ /* padding: 1em;*/
+
+  background: white;
+
+}
+
+#right {
+
+  width: 30%; 
+
+ /* margin:5px; */
+
+ /* padding: 1em;*/
+
+  background: white;
+
+}
+
+
+
+
+
+#left {   
+
+  float:left; 
+
+}
+
+#right {   float:right; 
+
+}
+
+
+
+#bar
+
+{
+
+	background-color:#0888c5;
+
+		height: 10px;
+
+
+
+}
+
+
+
+#mainfooter {   
+
+
+
+  overflow:auto;
+
+  width: 100%;
+
+ /* border: 1px solid black; */
+
+ background-color:#048bbc;
+
+ color:#FFF;
+
+
+
+
+
+
+
+
+
+
+
+/*background: white;*/
+
+ /* margin: 2em auto;*/
+
+}
+
+
+
+#leftfooter {   
+
+  float:left; 
+
+}
+
+#rightfooter {   float:right; 
+
+}
+
+
+
+
+
+
+
+#loading-mask 
+
+{
+
+  position: absolute;
+
+  left:0;
+
+  top:0;
+
+  width:100%;
+
+  height: 100%;
+
+  z-index:20000;
+
+  background-color: white;
+
+}
+
+
+
+#loading 
+
+{
+
+  position: absolute;
+
+  left:     50%;
+
+  top:      50%;
+
+  padding:  2px;
+
+  z-index:  20001;
+
+  height:   auto;
+
+  margin:   -35px 0 0 -30px;
+
+}
+
+
+
+#loading .loading-indicator 
+
+{
+
+  background: url(../images/extanim32.gif) no-repeat;
+
+  color:      #555;
+
+  font:       bold 13px tahoma,arial,helvetica;
+
+  padding:    8px 42px;
+
+  margin:     0;
+
+  text-align: center;
+
+  height:     auto;
+
+}
+
+
+
+
+
+
+

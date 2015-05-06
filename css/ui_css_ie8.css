@@ -1,0 +1,4 @@
+#xouter{display:block}
+#xcontainer{top:50%;display:block}
+#xinner{top:-50%;position:relative}
+#pan1{padding-left: 575px;}

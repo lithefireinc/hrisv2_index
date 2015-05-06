@@ -1,0 +1,6 @@
+#xouter{
+position:relative;
+/*overflow:hidden;*/
+overflow-y: hidden;
+}
+#pan1{padding-left: 575px;}

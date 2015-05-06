@@ -1,0 +1,74 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	
+}
+
+
+.left_floater
+{
+	float:left;
+}
+
+.right_floater
+{
+	float:right;
+}
+
+.clearer
+{
+	clear:both;
+}
+
+#main
+{
+	margin:0 auto;
+	border:solid 1px #CCC;
+	width:844px;
+	height:600px;
+/*	margin-top:10px;*/
+}
+
+
+	#content_home
+	{
+		width:844px;
+		height:100%;
+		background-image:url(../images/login.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		/*margin-top:8px;*/
+/*		margin-left:50px;*/
+		color:#d1d1d1;
+	}
+
+	
+	#home_login
+		{
+			width:900px;
+			height:389px;
+			margin-left:13px;
+			margin-top:19px;
+			float:right;
+		}
+		
+		#home_content_container
+		{
+			margin:0;
+			width:532px;
+			height:389px;
+			float:right;
+			text-align:right;
+			border:#000;
+			padding-right:10px;
+			/*margin-top:19px;*/
+		}
+		
+				#home_collage
+			{
+				width:532px;
+				height:272px;
+				position:absolute;
+				background-repeat:no-repeat;
+			}

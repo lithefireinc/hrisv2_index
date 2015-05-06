@@ -1,0 +1,35 @@
+	/* CSS Document */
+
+body 
+{
+	background-color:#ffffff;
+	font-size: 12px;
+	font-family: tahoma;
+	background:url(../../images/bg_horiz_lines.gif) repeat-x center fixed ;
+	
+	/*background-repeat: repeat-x;
+	background-position: 50% 50%;*/
+
+} 
+
+#xinner {
+
+	
+   /* padding-top:0px;*/
+/*	MARGIN: 0 auto; 
+	MARGIN-RIGHT: auto; */
+	width: 979px;
+	height: 380px;
+	margin-left: 150px;
+	margin-top: 70px;
+	background:url(../../images/ui.gif);
+	background-repeat: no-repeat;
+/*	background-position: 50% 50%;*/
+	padding-top: 110px;
+	}
+
+#pan1{
+	margin-left: 600px;
+	margin-top: 20px;
+	
+}
